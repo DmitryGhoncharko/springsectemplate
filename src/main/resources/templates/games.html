@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Магазин настольных игр</title>
+    <title>Список настольных игр</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         header {
@@ -12,8 +12,6 @@
             padding: 20px 0;
             text-align: center;
         }
-
-
 
         footer {
             background-color: #333;
@@ -27,16 +25,39 @@
 <body>
 <header>
     <div class="container">
-        <h1>Добро пожаловать в магазин настольных игр!</h1>
+        <h1>Список настольных игр</h1>
     </div>
 </header>
 
-<div class="jumbotron">
-    <div class="container">
-        <h2 style="color: #333333">Широкий выбор настольных игр для всех возрастов</h2>
-        <p style="color: #333333">От классических до современных, у нас вы найдете все, что нужно для отличного времяпровождения в компании друзей и семьи.</p>
-        <a class="btn btn-primary btn-lg" href="/client/games" role="button">Посмотреть игры</a>
-    </div>
+<div class="container">
+    <table class="table">
+        <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Название</th>
+            <th scope="col">Издатель</th>
+            <th scope="col">Год выпуска</th>
+            <th scope="col">Возрастная категория</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td>Каркассон</td>
+            <td>Z-Man Games</td>
+            <td>2000</td>
+            <td>От 8 лет</td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td>Диксит</td>
+            <td>Libellud</td>
+            <td>2008</td>
+            <td>От 6 лет</td>
+        </tr>
+
+        </tbody>
+    </table>
 </div>
 
 <footer>

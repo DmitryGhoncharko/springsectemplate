@@ -19,5 +19,8 @@ public class ClientController {
         return "сhome";
     }
 
-
+    @GetMapping("/games")
+    public String gamesPage() {
+        return "games";
+    }
 }
